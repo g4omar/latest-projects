@@ -1,0 +1,56 @@
+ .navabar {
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 15px 40px ;
+background: linear-gradient(90deg, orange, orangered);
+color: white;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+
+ /*Logo */
+ .navabar .logo {
+font-size: 28px;
+font-weight: bold;
+ }
+
+/* menu */
+.navabar ul {
+list-style: none; /* remove bullets */
+display: flex;
+gap: 25px; /* spacing between links */
+margin: 0;
+padding: 0;
+}
+
+.navabar ul li a {
+text-decoration: white;
+color: black;
+font-weight: bold;
+font-size: 18px;
+position: relative;
+transition: color 0.3s;
+}
+
+ .navabar ul li a::after{
+content: "";
+position: absolute;
+width: 0;
+height: 3px;
+left: 0;
+bottom: -5px;
+background-color: white;
+transition: width 0.3s;
+ }
+
+ .navabar ul li a:hover::after{
+   width: 100%; 
+ } 
+
+ .navabar ul li a:hover{
+color: yellow;
+ }
+ .dropdown{
+    display: none;
+ }

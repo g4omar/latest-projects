@@ -1,0 +1,47 @@
+body{
+display: flex;
+justify-content: center;
+margin-top: 60px;
+}
+
+div {
+width: 30vw;
+height: 40vh;
+background-color: brown;
+border-radius: 20px;
+box-shadow: 0 o 1px 0 gray;
+display: flex;
+justify-content: center;
+align-items: center;
+
+form{
+width: 80%;
+height: 70%;
+display: flex;
+align-items: center;
+flex-direction:column ;
+margin-bottom: 30px;
+}
+
+input{
+width: 60%;
+height: 18%;
+background-color: blue;
+}
+
+button {
+width: 30%;
+height: 15%;
+cursor: pointer;
+color: white;
+font-size: 17px;
+border-radius: 5px;
+background-color: rgb(18, 34, 49);
+border: none;
+margin-top: 30px;
+}
+
+button:hover{
+    background-color: orangered;
+}
+}
